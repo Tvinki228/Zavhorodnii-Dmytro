@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>button</title>
+</head>
+<style>
+  body {
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+  }
+
+  .reviews {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .reviews a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    position: relative;
+    padding: 8px 50px;
+    font-size: 40px;
+    transition: 2s;
+    width: 100px;
+  }
+
+  .reviews a:before {
+    content: 'Button-2';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(194, 239, 250);
+    padding: 8px 50px;
+    border: rgb(115, 147, 241) solid 4px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    box-shadow: 0 0 20px rgba(165, 13, 13, 0.1);
+    letter-spacing: 3px;
+    position: absolute;
+    left: 0px;
+    transition: 2s;
+    width: 100%;
+    top: -4px;
+  }
+
+  .reviews a:hover:before {
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+    transform: scale(1.01);
+  }
+</style>
+
+<body>
+  <div class="reviews">
+    <a href="#">Button</a>
+  </div>
+</body>
+
+</html>
