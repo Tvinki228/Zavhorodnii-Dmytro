@@ -1,0 +1,98 @@
+.section {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: radial-gradient(circle, rgba(209,174,238,1) 0%, rgba(148,187,233,1) 100%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.modal_window {
+    z-index: 9999;
+    position: absolute;
+    width: 300px;
+    background: linear-gradient(352deg, rgba(209,174,238,1) 0%, rgba(148,29,163,0.4234068627450981) 100%);
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -165px;
+    border: hidden;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 3px 3px 2px 1px rgba(148, 29, 163, .2);
+}
+.form {
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.close {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+}
+.close a:hover {
+    color: red;
+}
+
+.close:hover{
+    transform: scale(1.1);
+}
+h2 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+.form input {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.input {
+    border: none;
+    resize: none;
+    outline: none;
+    text-align: center;
+    color: blueviolet;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.input:hover {
+    transform: scale(1.03);
+    transition-duration: 0.4s;
+}
+.input:focus {
+    color: grey;
+    box-shadow: 0 0 0 0.2rem rgb(146 89 161 / 25%);
+}
+
+textarea {
+    margin-top: 20px;
+    width: 100%;
+}
+.button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-left: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:focus {
+    color: rgb(163, 58, 189);
+    box-shadow: 0 0 0 0.2rem rgb(146 89 161 / 25%);
+}
+.button:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+    transition-duration: 0.4s;
+}
+a {
+    text-decoration: none;
+}
