@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+    background: url(trees.png);
+}
+.for_page {
+    min-height: 100%;
+    position: relative;
+}
+.header {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+.page {
+    padding-bottom: 158px;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigate {
+    background: #7a6d75;
+}
+
+.navigate ul {
+    list-style: none;
+}
+
+.navigate ul.menu>li {
+    display: inline-block;
+    position: relative;
+}
+
+.navigate ul.menu>li>a {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navigate ul.menu li a:hover {
+    background: #075D71;
+}
+
+.navigate ul.menu li ul.sub-menu li a {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+}
+
+ul.sub-menu {
+    display: none;
+    background: #8f60cc;
+    position: absolute;
+    left: 0;
+    top: 37px;
+    width: 200px;
+}
+
+.navigate ul.menu li:nth-child(3):hover ul.sub-menu {
+    display: block;
+}
+
+ul.sub-sub-menu {
+    left: 200px;
+    top: 110px;
+    width: 180px;
+    display: none;
+    background: #63359E;
+    position: absolute;
+}
+
+.navigate ul.menu li:nth-child(4):hover ul.sub-sub-menu {
+    display: block;
+}
+
+.item-menu_two {
+    position: relative;
+}
+.box_logo {
+    width: 200px;
+}
+
+.logo  {
+    display: block;
+    width: 150px;
+}
+.box_slogan {
+    width: 800px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.box_contact  {
+    width: 170px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.box_contact a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #954dd8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box_contact a:hover {
+    color: rgb(216, 89, 167);
+    text-decoration: underline;
+}
+.box_contact div {
+    color: rgb(25, 110, 110);
+    margin-top: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer {
+    padding: 65px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url(trees.png);
+    position: absolute;
+    text-align: center;
+}
+p {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.content {
+    background: url(trees.png);
+    padding: 40px 40px 100px 40px;
+}
+.another_block{
+    background:rgba(255,255,255, 0.3);
+    margin-left: 100px;
+}
+.another_block p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.another_block h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.another_block {
+    border: 1px rgb(241, 239, 239) solid;
+    width: 40%;
+}
+.text p {
+    font-size: 20px;
+    color: rgb(55, 155, 158);
+}
+.information {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top left, powderblue, pink);
+}
+.list {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+.list ul {
+    margin-left: 300px;
+    margin-bottom: 25px;
+}
+.list ul li {
+    margin-top: 10px;
+}
+.list ul li a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 30px;
+}
+.list ul li a:hover {
+    text-decoration: underline;
+    color: chocolate;
+    transition:0.7s;
+}
+.text {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    box-sizing: border-box;
+}
+.text:hover {
+    background: rgb(233, 221, 223);
+}
+.footer_content {
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    color: black;
+    border: black 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(3deg, #e6d16c, #16014c);
+    cursor: pointer;
+}
+.footer_content:hover {
+    background: rgb(65, 60, 60);
+    transition:0.5s;
+    
+}
+.footer_content span a {
+    text-decoration: none;
+}
