@@ -1,0 +1,183 @@
+
+html,
+body {
+    height: 100%;
+    position: relative;
+    background: url(img/food.png);
+}
+
+
+.main_block {
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 1px;
+    background: url(img/blue-snow.png);
+    padding-top: 10px;
+    position: relative;
+}
+
+.contacts {
+    float: left;
+    margin-left: 170px;
+    margin-top: 50px;
+    width: 200px;
+}
+.contacts a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3c071a;
+    font-weight: 600;
+}
+.contacts a:hover {
+    color: rgb(92, 164, 223);
+    text-decoration: underline;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper_img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    width: 170px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.wrapper_img:hover {
+    transform: scale(1.2);
+}
+.title {
+    float: left;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(202, 77, 77);
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.page {
+    padding-bottom: 158px;
+    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main_blog .article {
+    width: 32%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.main_blog .article .title_article a {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    height: 47px;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main_blog .article .title_article a:hover {
+    color: #a036ce6e;
+}
+
+.description {
+    line-height: 21px;
+    letter-spacing: 1px;
+    max-height: 105px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background: #63765b;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: #045e4f;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.img_article {
+    position: relative;
+}
+
+.img_article:before {
+    content: "";
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img_article:hover:before {
+    display: block;
+}
+
+.none_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.img_article:hover .none_text {
+    display: block;
+}
+
+.footer {
+    color: rgb(206, 89, 89);
+    background: url(img/blue-snow.png);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+
