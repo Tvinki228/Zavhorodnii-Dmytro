@@ -1,0 +1,107 @@
+body {
+    background: #222;
+    display: flex;
+}
+.part_one {
+    margin-left: 100px;
+    font-size: 40px;
+}
+.shadow {
+    text-shadow: 19px 23px 1px #c5b6b6, 0 0 6em green;
+}
+
+.shadow2 {
+    margin-top: 40px;
+    color: aqua;
+    text-shadow: 20px 29px 3px #c5b6b6, 0 0 0em rgb(105, 30, 139);
+}
+
+.shadow3 {
+    margin-top: 40px;
+    color: blanchedalmond;
+    text-shadow: 18px 21px 2px black, 14px -11px 2px red, 0 0 3em blue, 0 0 0.2em blue;
+}
+.shadow4 {
+    margin-top: 40px;
+    margin-top: 40px;
+    color: #089dcb;;
+    text-shadow: 2px 2px 1px #333, -1px -1px 0 rgb(6, 12, 12);
+}
+.shadow5 {
+ margin-top: 40px;
+ color: cornflowerblue;
+ text-shadow: 0 1px 0 rgb(90 95 100), 0 2px 0 rgb(80 85 90), 0 3px 0 rgb(70 75 80), 0 4px 0 rgb(60 65 70), 0 5px 0 rgb(50 55 60), 0 6px 0px rgb(40 45 50 / 20%), 0 7px 0px rgb(30 35 40 / 10%), 0 1px 3px rgb(20 25 30 / 30%), 0 3px 5px rgb(20 25 30 / 20%), 0 5px 10px rgb(10 15 20 / 30%), 0 10px 10px rgb(0 5 10 / 40%);
+
+}
+.shadow6 {
+    margin-top: 40px;
+    text-shadow: red 0 0 2px;
+}
+
+.part_two {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.block_1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(82, 144, 196);
+    box-shadow: 11px 11px 0px 0px rgba(31, 42, 187, 0.75);
+    -webkit-box-shadow: 11px 11px 0px 0px rgba(31, 42, 187, 0.75);
+    -moz-box-shadow: 11px 11px 0px 0px rgba(31, 42, 187, 0.75);
+}
+.block_2 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background: rgb(82, 144, 196);
+    box-shadow: 11px 11px 20px 0px rgba(35,134,204,0.75);
+    -webkit-box-shadow: 11px 11px 20px 0px rgba(35,134,204,0.75);
+    -moz-box-shadow: 11px 11px 20px 0px rgba(35,134,204,0.75);
+}
+.block_3 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 8px 6px 5px #b39c2f, inset -8px -6px 5px #ff0081;
+}
+
+.grad {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+    border: 2px black solid;
+    background: linear-gradient(to right, #e30c0c, rgb(11 34 237) 50%, white 88%, red 98%);
+}
+
+.flag {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 450px;
+    height: 250px;
+    border: 2px black solid;
+    background: linear-gradient(to bottom, #CE0101 33%, #F3F2F2 33% 66%, #C50B00  66% 100%);
+}
+.circle {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(182,160,227,1) 13%, rgba(82,43,199,1) 36%);
+}
+.right_circle {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(circle at 11% 23%, rgb(99 223 257) 1%, rgb(82,43,199,1) 15%);
+}
+.strange_circle {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 400px;
+    height: 200px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 5%, rgba(233,234,238,1) 20% 25%, rgba(173,189,173,0.9808298319327731) 29%, rgba(84,186,80,1) 33%);
+}
