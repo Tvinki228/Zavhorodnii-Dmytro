@@ -83,11 +83,17 @@ body {
 .clear {
     clear: both;
 }
-
 img {
     width: auto;
     max-width: 100%;
     height: auto;
+}
+
+.img_article img {
+    transition: all 1s ease-out;
+}
+.img_article img:hover {
+    transform: scale(1.1);
 }
 
 .main_blog .article .title_article a {
